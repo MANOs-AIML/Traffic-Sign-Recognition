@@ -16,7 +16,8 @@ Detection strategy:
 In the next phase - classification phase, a list of images are created by cropping from the original frame based on candidates' coordinate. A pre-trained SVM model will classify these images to find out which type of traffic sign they are.
 
 Currently supported traffic signs (*The name of each sign's file is corresponding to their class in SVM*):
- ![](/images/all-signs.png)
+ ![]<img width="576" height="368" alt="all-signs" src="https://github.com/user-attachments/assets/dd9c2ec2-4546-49d1-b0db-740c7d7dcb1c" />
+
 Note:
 - *All signs which belong to class 8 and above are marked as **OTHERS** because a competition requires this. There is also a class 0 which are marked as non-traffic-sign*
 - *Only the **biggest** sign in the current frame is cropped and classified*
@@ -41,7 +42,8 @@ Other files:
 
 ##### b. [Dataset](dataset)
 The [Dataset](dataset) folder contains images for training SVM models. There are 12 folders contains cropped images of traffic signs. Each folder is named as the class of the traffic signs it contains. The special [0](dataset/0) folder contains non-traffic-sign cropped images which can be recognized as traffic signs in the detection phase. 
-![Wrong detected traffic signs](images/0.png)
+![Wrong detected traffic signs]<img width="794" height="453" alt="0" src="https://github.com/user-attachments/assets/ae258fc4-6993-4aa8-a1ef-fd8eb9a5bb9c" />
+
 
 The dataset is created by applying the detection phase on many videos with various parameters to mark all traffic signs and then manually separating them into their right classes.
 
@@ -65,6 +67,8 @@ optional arguments:
                         Similarly to a circle
 ```
 ### 5. Result
+<img width="480" height="360" alt="demo" src="https://github.com/user-attachments/assets/e7922e78-3dad-4051-8d4f-c749f2b485a5" />
+
 
 ### 6. Disadvantages
 - Static image processing, this means parameters must be updated for each video with different lighting conditions
