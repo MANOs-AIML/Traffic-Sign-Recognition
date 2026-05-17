@@ -65,7 +65,7 @@ optional arguments:
                         Similarly to a circle
 ```
 ### 5. Result
-![](images/demo.gif)
+
 ### 6. Disadvantages
 - Static image processing, this means parameters must be updated for each video with different lighting conditions
 - The accuracy of the detection phase is not high, still, miss signs or detect wrong areas.
@@ -78,5 +78,6 @@ optional arguments:
 - No need to retrain the model when running the program
 - Make a bigger dataset
 
-AUTHOR
-MANO
+## Author
+MANO S  
+AI & ML Student
