@@ -67,7 +67,8 @@ optional arguments:
                         Similarly to a circle
 ```
 ### 5. Result
-<img width="480" height="360" alt="demo" src="https://github.com/user-attachments/assets/bd571358-89c3-4b61-80d2-018f94eccfa5" />
+<img width="480" height="360" alt="image" src="https://github.com/user-attachments/assets/5ebb7e71-1225-480b-a55e-c812439c2845" />
+
 
 
 ### 6. Disadvantages
